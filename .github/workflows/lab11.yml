@@ -1,1 +1,227 @@
-bmFtZTogTGFiIDExIE1vbml0b3JpbmcgYW5kIExvZ2dpbmcKb246IFtwdXNoLCB3b3JrZmxvd19kaXNwYXRjaF0KcGVybWlzc2lvbnM6CiAgY29udGVudHM6IHJlYWQKam9iczoKICBsYWI6CiAgICBydW5zLW9uOiB1YnVudHUtMjQuMDQKICAgIHRpbWVvdXQtbWludXRlczogMjUKICAgIHN0ZXBzOgogICAgICAtIG5hbWU6IERlcGxveSBhbmQgdmVyaWZ5IGxhYgogICAgICAgIHJ1bjogfAogICAgICAgICAgY2F0ID4gY29tcG9zZS55bWwgPDwnTEFCMTFfRU9GJwogICAgICAgICAgc2VydmljZXM6CiAgICAgICAgICAgIG5vZGU6CiAgICAgICAgICAgICAgaW1hZ2U6IHByb20vbm9kZS1leHBvcnRlcjp2MS45LjEKICAgICAgICAgICAgICBwaWQ6IGhvc3QKICAgICAgICAgICAgICB2b2x1bWVzOiBbIi86L2hvc3Q6cm8scnNsYXZlIl0KICAgICAgICAgICAgICBjb21tYW5kOiBbIi0tcGF0aC5yb290ZnM9L2hvc3QiXQogICAgICAgICAgICBwcm9tZXRoZXVzOgogICAgICAgICAgICAgIGltYWdlOiBwcm9tL3Byb21ldGhldXM6djMuNS4wCiAgICAgICAgICAgICAgcG9ydHM6IFsiMTI3LjAuMC4xOjkwOTA6OTA5MCJdCiAgICAgICAgICAgICAgdm9sdW1lczogWyIuL3Byb21ldGhldXMueW1sOi9ldGMvcHJvbWV0aGV1cy9wcm9tZXRoZXVzLnltbDpybyJdCiAgICAgICAgICAgIGdyYWZhbmE6CiAgICAgICAgICAgICAgaW1hZ2U6IGdyYWZhbmEvZ3JhZmFuYToxMi4xLjAKICAgICAgICAgICAgICBwb3J0czogWyIxMjcuMC4wLjE6MzAwMDozMDAwIl0KICAgICAgICAgICAgZWxhc3RpY3NlYXJjaDoKICAgICAgICAgICAgICBpbWFnZTogZG9ja2VyLmVsYXN0aWMuY28vZWxhc3RpY3NlYXJjaC9lbGFzdGljc2VhcmNoOjguMTAuMgogICAgICAgICAgICAgIHBvcnRzOiBbIjEyNy4wLjAuMTo5MjAwOjkyMDAiXQogICAgICAgICAgICAgIGVudmlyb25tZW50OgogICAgICAgICAgICAgICAgZGlzY292ZXJ5LnR5cGU6IHNpbmdsZS1ub2RlCiAgICAgICAgICAgICAgICB4cGFjay5zZWN1cml0eS5lbmFibGVkOiAiZmFsc2UiCiAgICAgICAgICAgICAgICBFU19KQVZBX09QVFM6ICItWG1zNTEybSAtWG14NTEybSIKICAgICAgICAgICAga2liYW5hOgogICAgICAgICAgICAgIGltYWdlOiBkb2NrZXIuZWxhc3RpYy5jby9raWJhbmEva2liYW5hOjguMTAuMgogICAgICAgICAgICAgIHBvcnRzOiBbIjEyNy4wLjAuMTo1NjAxOjU2MDEiXQogICAgICAgICAgICAgIGVudmlyb25tZW50OgogICAgICAgICAgICAgICAgRUxBU1RJQ1NFQVJDSF9IT1NUUzogaHR0cDovL2VsYXN0aWNzZWFyY2g6OTIwMAogICAgICAgICAgICAgIGRlcGVuZHNfb246IFtlbGFzdGljc2VhcmNoXQogICAgICAgICAgICBsb2dzdGFzaDoKICAgICAgICAgICAgICBpbWFnZTogZG9ja2VyLmVsYXN0aWMuY28vbG9nc3Rhc2gvbG9nc3Rhc2g6OC4xMC4yCiAgICAgICAgICAgICAgZW52aXJvbm1lbnQ6CiAgICAgICAgICAgICAgICBYUEFDS19NT05JVE9SSU5HX0VOQUJMRUQ6ICJmYWxzZSIKICAgICAgICAgICAgICAgIExTX0pBVkFfT1BUUzogIi1YbXMyNTZtIC1YbXgyNTZtIgogICAgICAgICAgICAgIHZvbHVtZXM6CiAgICAgICAgICAgICAgICAtIC4vcGlwZWxpbmUuY29uZjovdXNyL3NoYXJlL2xvZ3N0YXNoL3BpcGVsaW5lL2xvZ3N0YXNoLmNvbmY6cm8KICAgICAgICAgICAgICAgIC0gLi9hcHAubG9nOi9sb2dzL2FwcC5sb2c6cm8KICAgICAgICAgICAgICBkZXBlbmRzX29uOiBbZWxhc3RpY3NlYXJjaF0KICAgICAgICAgIExBQjExX0VPRgogICAgICAgICAgY2F0ID4gcHJvbWV0aGV1cy55bWwgPDwnTEFCMTFfRU9GJwogICAgICAgICAgZ2xvYmFsOgogICAgICAgICAgICBzY3JhcGVfaW50ZXJ2YWw6IDVzCiAgICAgICAgICBzY3JhcGVfY29uZmlnczoKICAgICAgICAgICAgLSBqb2JfbmFtZTogcHJvbWV0aGV1cwogICAgICAgICAgICAgIHN0YXRpY19jb25maWdzOgogICAgICAgICAgICAgICAgLSB0YXJnZXRzOiBbImxvY2FsaG9zdDo5MDkwIl0KICAgICAgICAgICAgLSBqb2JfbmFtZTogbm9kZV9leHBvcnRlcgogICAgICAgICAgICAgIHN0YXRpY19jb25maWdzOgogICAgICAgICAgICAgICAgLSB0YXJnZXRzOiBbIm5vZGU6OTEwMCJdCiAgICAgICAgICBMQUIxMV9FT0YKICAgICAgICAgIGNhdCA+IHBpcGVsaW5lLmNvbmYgPDwnTEFCMTFfRU9GJwogICAgICAgICAgaW5wdXQgewogICAgICAgICAgICBmaWxlIHsKICAgICAgICAgICAgICBwYXRoID0+ICIvbG9ncy9hcHAubG9nIgogICAgICAgICAgICAgIHN0YXJ0X3Bvc2l0aW9uID0+ICJiZWdpbm5pbmciCiAgICAgICAgICAgICAgc2luY2VkYl9wYXRoID0+ICIvdXNyL3NoYXJlL2xvZ3N0YXNoL2RhdGEvbGFiMTEuc2luY2VkYiIKICAgICAgICAgICAgICBjb2RlYyA9PiBqc29uCiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICAgIG91dHB1dCB7CiAgICAgICAgICAgIGVsYXN0aWNzZWFyY2ggewogICAgICAgICAgICAgIGhvc3RzID0+IFsiaHR0cDovL2VsYXN0aWNzZWFyY2g6OTIwMCJdCiAgICAgICAgICAgICAgaW5kZXggPT4gImxhYjExLWV2ZW50cyIKICAgICAgICAgICAgICBpbG1fZW5hYmxlZCA9PiBmYWxzZQogICAgICAgICAgICAgIGRhdGFfc3RyZWFtID0+IGZhbHNlCiAgICAgICAgICAgIH0KICAgICAgICAgIH0KICAgICAgICAgIExBQjExX0VPRgogICAgICAgICAgY2F0ID4gYXBwLmxvZyA8PCdMQUIxMV9FT0YnCiAgICAgICAgICB7ImxldmVsIjoiSU5GTyIsIm1lc3NhZ2UiOiJXb3JrZXIgc3RhcnRlZCJ9CiAgICAgICAgICB7ImxldmVsIjoiSU5GTyIsIm1lc3NhZ2UiOiJCYXRjaCBhY2NlcHRlZCJ9CiAgICAgICAgICB7ImxldmVsIjoiV0FSTiIsIm1lc3NhZ2UiOiJCYXRjaCBsYXRlbmN5IG92ZXIgNTAwIG1zIn0KICAgICAgICAgIHsibGV2ZWwiOiJFUlJPUiIsIm1lc3NhZ2UiOiJCYXRjaCB0aW1lZCBvdXQifQogICAgICAgICAgeyJsZXZlbCI6IklORk8iLCJtZXNzYWdlIjoiV29ya2VyIHJlY292ZXJlZCJ9CiAgICAgICAgICBMQUIxMV9FT0YKICAgICAgICAgIGNhdCA+IGxhYi5weSA8PCdMQUIxMV9FT0YnCiAgICAgICAgICBpbXBvcnQgYmFzZTY0CiAgICAgICAgICBpbXBvcnQganNvbgogICAgICAgICAgaW1wb3J0IG9zCiAgICAgICAgICBpbXBvcnQgdGltZQogICAgICAgICAgZnJvbSBwYXRobGliIGltcG9ydCBQYXRoCiAgICAgICAgICBmcm9tIHVybGxpYi5wYXJzZSBpbXBvcnQgdXJsZW5jb2RlCiAgICAgICAgICBmcm9tIHVybGxpYi5yZXF1ZXN0IGltcG9ydCBSZXF1ZXN0LCB1cmxvcGVuCiAgICAgICAgICBmcm9tIGRvY3ggaW1wb3J0IERvY3VtZW50CiAgICAgICAgICBmcm9tIGRvY3guc2hhcmVkIGltcG9ydCBQdAogICAgICAgICAgCiAgICAgICAgICBkZWYgYXBpKHVybCwgYm9keT1Ob25lLCBoZWFkZXJzPU5vbmUsIG1ldGhvZD1Ob25lKToKICAgICAgICAgICAgICByZXEgPSBSZXF1ZXN0KHVybCwgZGF0YT1Ob25lIGlmIGJvZHkgaXMgTm9uZSBlbHNlIGpzb24uZHVtcHMoYm9keSkuZW5jb2RlKCksCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXJzPXsiQ29udGVudC1UeXBlIjoiYXBwbGljYXRpb24vanNvbiIsICoqKGhlYWRlcnMgb3Ige30pfSwgbWV0aG9kPW1ldGhvZCkKICAgICAgICAgICAgICB3aXRoIHVybG9wZW4ocmVxLCB0aW1lb3V0PTIwKSBhcyByZXNwb25zZToKICAgICAgICAgICAgICAgICAgcmV0dXJuIGpzb24ubG9hZChyZXNwb25zZSkKICAgICAgICAgIAogICAgICAgICAgZGVmIHdhaXQoY2FsbCwgcmVhZHksIG5hbWUpOgogICAgICAgICAgICAgIGZvciBfIGluIHJhbmdlKDkwKToKICAgICAgICAgICAgICAgICAgdHJ5OgogICAgICAgICAgICAgICAgICAgICAgcmVzdWx0ID0gY2FsbCgpCiAgICAgICAgICAgICAgICAgICAgICBpZiByZWFkeShyZXN1bHQpOgogICAgICAgICAgICAgICAgICAgICAgICAgIHJldHVybiByZXN1bHQKICAgICAgICAgICAgICAgICAgZXhjZXB0IChPU0Vycm9yLCBWYWx1ZUVycm9yKSBhcyBlcnJvcjoKICAgICAgICAgICAgICAgICAgICAgIHByaW50KGYie25hbWV9OiB7ZXJyb3J9IiwgZmx1c2g9VHJ1ZSkKICAgICAgICAgICAgICAgICAgdGltZS5zbGVlcCg1KQogICAgICAgICAgICAgIHJhaXNlIFJ1bnRpbWVFcnJvcihmIk5vdCByZWFkeToge25hbWV9IikKICAgICAgICAgIAogICAgICAgICAgcCA9ICJodHRwOi8vMTI3LjAuMC4xOjkwOTAiCiAgICAgICAgICBnID0gImh0dHA6Ly8xMjcuMC4wLjE6MzAwMCIKICAgICAgICAgIGUgPSAiaHR0cDovLzEyNy4wLjAuMTo5MjAwIgogICAgICAgICAgayA9ICJodHRwOi8vMTI3LjAuMC4xOjU2MDEiCiAgICAgICAgICBnYSA9IHsiQXV0aG9yaXphdGlvbiI6ICJCYXNpYyAiICsgYmFzZTY0LmI2NGVuY29kZShiImFkbWluOmFkbWluIikuZGVjb2RlKCl9CiAgICAgICAgICBrYSA9IHsia2JuLXhzcmYiOiJsYWIxMSJ9CiAgICAgICAgICBkZWYgcXVlcnkoZXhwciwgaG9zdD1wLCBoZWFkZXJzPU5vbmUpOgogICAgICAgICAgICAgIHJldHVybiBhcGkoaG9zdCArICIvYXBpL3YxL3F1ZXJ5PyIgKyB1cmxlbmNvZGUoeyJxdWVyeSI6ZXhwcn0pLCBoZWFkZXJzPWhlYWRlcnMpWyJkYXRhIl1bInJlc3VsdCJdCiAgICAgICAgICB1cCA9IHdhaXQobGFtYmRhOiBxdWVyeSgidXAiKSwgbGFtYmRhIHY6IGxlbih2KT09MiBhbmQgYWxsKHhbInZhbHVlIl1bMV09PSIxIiBmb3IgeCBpbiB2KSwgIlByb21ldGhldXMgdGFyZ2V0cyIpCiAgICAgICAgICBjcHVfZXhwciA9ICcxMDAgKiAoMSAtIGF2ZyBieShpbnN0YW5jZSkgKHJhdGUobm9kZV9jcHVfc2Vjb25kc190b3RhbHttb2RlPSJpZGxlIn1bMW1dKSkpJwogICAgICAgICAgbWVtX2V4cHIgPSAnMTAwICogKDEgLSBub2RlX21lbW9yeV9NZW1BdmFpbGFibGVfYnl0ZXMgLyBub2RlX21lbW9yeV9NZW1Ub3RhbF9ieXRlcyknCiAgICAgICAgICBjcHUgPSBmbG9hdCh3YWl0KGxhbWJkYTogcXVlcnkoY3B1X2V4cHIpLCBib29sLCAiQ1BVIilbMF1bInZhbHVlIl1bMV0pCiAgICAgICAgICByYW0gPSBmbG9hdChxdWVyeShtZW1fZXhwcilbMF1bInZhbHVlIl1bMV0pCiAgICAgICAgICBhdmFpbGFibGUgPSBpbnQocXVlcnkoIm5vZGVfbWVtb3J5X01lbUF2YWlsYWJsZV9ieXRlcyIpWzBdWyJ2YWx1ZSJdWzFdKQogICAgICAgICAgd2FpdChsYW1iZGE6IGFwaShnKyIvYXBpL2hlYWx0aCIpLCBsYW1iZGEgZDogZFsiZGF0YWJhc2UiXT09Im9rIiwgIkdyYWZhbmEiKQogICAgICAgICAgYXBpKGcrIi9hcGkvZGF0YXNvdXJjZXMiLCB7Im5hbWUiOiJQcm9tZXRoZXVzIiwidWlkIjoibGFiLXByb20iLCJ0eXBlIjoicHJvbWV0aGV1cyIsCiAgICAgICAgICAgICAgInVybCI6Imh0dHA6Ly9wcm9tZXRoZXVzOjkwOTAiLCJhY2Nlc3MiOiJwcm94eSIsImlzRGVmYXVsdCI6VHJ1ZX0sIGdhKQogICAgICAgICAgZGFzaCA9IGFwaSgiaHR0cHM6Ly9ncmFmYW5hLmNvbS9hcGkvZGFzaGJvYXJkcy8xODYwL3JldmlzaW9ucy9sYXRlc3QvZG93bmxvYWQiKQogICAgICAgICAgZGFzaFsiaWQiXSA9IE5vbmUKICAgICAgICAgIHNhdmVkID0gYXBpKGcrIi9hcGkvZGFzaGJvYXJkcy9kYiIsIHsiZGFzaGJvYXJkIjpkYXNoLCJvdmVyd3JpdGUiOlRydWV9LCBnYSkKICAgICAgICAgIGFzc2VydCBzYXZlZFsic3RhdHVzIl0gPT0gInN1Y2Nlc3MiLCBzYXZlZAogICAgICAgICAgaGVhbHRoID0gYXBpKGcrIi9hcGkvZGF0YXNvdXJjZXMvdWlkL2xhYi1wcm9tL2hlYWx0aCIsIGhlYWRlcnM9Z2EpCiAgICAgICAgICBhc3NlcnQgaGVhbHRoWyJzdGF0dXMiXSA9PSAiT0siLCBoZWFsdGgKICAgICAgICAgIGdwID0gZysiL2FwaS9kYXRhc291cmNlcy9wcm94eS91aWQvbGFiLXByb20iCiAgICAgICAgICBhc3NlcnQgcXVlcnkobWVtX2V4cHIsIGdwLCBnYSkKICAgICAgICAgIGhpdHMgPSB3YWl0KGxhbWJkYTogYXBpKGUrIi9sYWIxMS1ldmVudHMvX3NlYXJjaD9zaXplPTIwIiksIAogICAgICAgICAgICAgICAgICAgICAgbGFtYmRhIGQ6IGRbImhpdHMiXVsidG90YWwiXVsidmFsdWUiXT49NSwgIkxvZ3N0YXNoIGluZGV4aW5nIikKICAgICAgICAgIGV2ZW50cyA9IFt4WyJfc291cmNlIl0gZm9yIHggaW4gaGl0c1siaGl0cyJdWyJoaXRzIl1dCiAgICAgICAgICBleHBlY3RlZCA9IHNvcnRlZCgoeFsibGV2ZWwiXSx4WyJtZXNzYWdlIl0pIGZvciB4IGluIG1hcChqc29uLmxvYWRzLCBQYXRoKCJhcHAubG9nIikucmVhZF90ZXh0KCkuc3BsaXRsaW5lcygpKSkKICAgICAgICAgIGFzc2VydCBzb3J0ZWQoKHhbImxldmVsIl0seFsibWVzc2FnZSJdKSBmb3IgeCBpbiBldmVudHMpID09IGV4cGVjdGVkCiAgICAgICAgICBlcnJvcnMgPSBhcGkoZSsiL2xhYjExLWV2ZW50cy9fY291bnQiLCB7InF1ZXJ5Ijp7InRlcm0iOnsibGV2ZWwua2V5d29yZCI6IkVSUk9SIn19fSkKICAgICAgICAgIGFzc2VydCBlcnJvcnNbImNvdW50Il0gPT0gMSwgZXJyb3JzCiAgICAgICAgICB3YWl0KGxhbWJkYTogYXBpKGsrIi9hcGkvc3RhdHVzIiksIGxhbWJkYSBkOmRbInN0YXR1cyJdWyJvdmVyYWxsIl1bImxldmVsIl09PSJhdmFpbGFibGUiLCAiS2liYW5hIikKICAgICAgICAgIHZpZXcgPSBhcGkoaysiL2FwaS9kYXRhX3ZpZXdzL2RhdGFfdmlldyIseyJkYXRhX3ZpZXciOnsiaWQiOiJsYWIxMS1ldmVudHMiLCJ0aXRsZSI6ImxhYjExLWV2ZW50cyIsCiAgICAgICAgICAgICAgIm5hbWUiOiJMYWIgMTEgRXZlbnRzIiwidGltZUZpZWxkTmFtZSI6IkB0aW1lc3RhbXAifX0sa2EpCiAgICAgICAgICBhc3NlcnQgdmlld1siZGF0YV92aWV3Il1bInRpdGxlIl0gPT0gImxhYjExLWV2ZW50cyIKICAgICAgICAgIHZpYV9raWJhbmEgPSBhcGkoaysiL2FwaS9jb25zb2xlL3Byb3h5P3BhdGg9bGFiMTEtZXZlbnRzJTJGX3NlYXJjaCZtZXRob2Q9R0VUIixoZWFkZXJzPWthLG1ldGhvZD0iUE9TVCIpCiAgICAgICAgICBhc3NlcnQgdmlhX2tpYmFuYVsiaGl0cyJdWyJ0b3RhbCJdWyJ2YWx1ZSJdID09IDUKICAgICAgICAgIG91dCA9IFBhdGgoInJlc3VsdHMiKQogICAgICAgICAgb3V0Lm1rZGlyKGV4aXN0X29rPVRydWUpCiAgICAgICAgICBydW4gPSBvcy5lbnZpcm9uWyJHSVRIVUJfU0VSVkVSX1VSTCJdKyIvIitvcy5lbnZpcm9uWyJHSVRIVUJfUkVQT1NJVE9SWSJdKyIvYWN0aW9ucy9ydW5zLyIrb3MuZW52aXJvblsiR0lUSFVCX1JVTl9JRCJdCiAgICAgICAgICBwcm9vZiA9IHsicnVuIjpydW4sInJ1bm5lciI6b3MuZW52aXJvblsiUlVOTkVSX09TIl0sInRhcmdldHMiOnVwLCJjcHVfcGVyY2VudCI6Y3B1LAogICAgICAgICAgICAgICAgICAgInJhbV9wZXJjZW50IjpyYW0sImF2YWlsYWJsZV9ieXRlcyI6YXZhaWxhYmxlLCJncmFmYW5hIjpzYXZlZCwiZ3JhZmFuYV9kYXRhX3NvdXJjZSI6aGVhbHRoLAogICAgICAgICAgICAgICAgICAgImtpYmFuYV9kYXRhX3ZpZXciOnZpZXdbImRhdGFfdmlldyJdWyJ0aXRsZSJdLCJraWJhbmFfaGl0cyI6NSwiZXJyb3JzIjplcnJvcnNbImNvdW50Il0sCiAgICAgICAgICAgICAgICAgICAiZXZlbnRzIjpbe2tleTp4W2tleV0gZm9yIGtleSBpbiAoIkB0aW1lc3RhbXAiLCJsZXZlbCIsIm1lc3NhZ2UiKX0gZm9yIHggaW4gZXZlbnRzXX0KICAgICAgICAgIChvdXQvImV2aWRlbmNlLmpzb24iKS53cml0ZV90ZXh0KGpzb24uZHVtcHMocHJvb2YsaW5kZW50PTIpLGVuY29kaW5nPSJ1dGYtOCIpCiAgICAgICAgICBkPURvY3VtZW50KCkKICAgICAgICAgIGZvciBuYW1lIGluICgiTm9ybWFsIiwiVGl0bGUiLCJIZWFkaW5nIDEiKToKICAgICAgICAgICAgICBkLnN0eWxlc1tuYW1lXS5mb250Lm5hbWU9IkNhbGlicmkiCiAgICAgICAgICBkLnN0eWxlc1siTm9ybWFsIl0uZm9udC5zaXplPVB0KDExKQogICAgICAgICAgZnJvbSBkb2N4Lm94bWwubnMgaW1wb3J0IHFuCiAgICAgICAgICBmb3IgYiBpbiBkLnN0eWxlc1siVGl0bGUiXS5fZWxlbWVudC54cGF0aCgiLi93OnBQci93OnBCZHIiKToKICAgICAgICAgICAgICBiLmdldHBhcmVudCgpLnJlbW92ZShiKQogICAgICAgICAgZC5hZGRfcGFyYWdyYXBoKCLQm9Cw0LHQvtGA0LDRgtC+0YDQvdCw0Y8g0YDQsNCx0L7RgtCwIDExIiwgIlRpdGxlIikKICAgICAgICAgIGQuYWRkX3BhcmFncmFwaCgi0JzQvtC90LjRgtC+0YDQuNC90LMg0Lgg0LvQvtCz0LjRgNC+0LLQsNC90LjQtSDQsiBHaXRIdWIgQWN0aW9ucyIpCiAgICAgICAgICBkLmFkZF9wYXJhZ3JhcGgoItCU0LjRgdGG0LjQv9C70LjQvdCwIOKAlCBEZXZPcHMg0Lgg0L7Qv9C10YDQsNGG0LjQvtC90L3Ri9C1INGB0LjRgdGC0LXQvNGLIikKICAgICAgICAgIGQuYWRkX3BhcmFncmFwaCgi0JLRi9C/0L7Qu9C90LjQuyjQsCkgX19fX19fX19fX19fX19fX19fX19fX18gICAg0JPRgNGD0L/Qv9CwIF9fX19fX19fX18iKQogICAgICAgICAgZC5hZGRfcGFyYWdyYXBoKCLQl9Cw0L/Rg9GB0Log0Lgg0LbRg9GA0L3QsNC7INC/0YDQvtCy0LXRgNC60LhcbiIrcnVuKQogICAgICAgICAgZC5hZGRfaGVhZGluZygi0KbQtdC70Ywg0YDQsNCx0L7RgtGLIiwxKQogICAgICAgICAgZC5hZGRfcGFyYWdyYXBoKCLQndCw0YHRgtGA0L7QuNGC0Ywg0YHQsdC+0YAg0LzQtdGC0YDQuNC6IExpbnV4INC4INGG0LXQvdGC0YDQsNC70LjQt9C+0LLQsNC90L3Ri9C5INC/0L7QuNGB0Log0LbRg9GA0L3QsNC70L7Qsi4g0JLRgdC1INGI0LXRgdGC0Ywg0YHQtdGA0LLQuNGB0L7QsiDQt9Cw0L/Rg9GJ0LXQvdGLINGH0LXRgNC10LcgRG9ja2VyIENvbXBvc2Ug0L3QsCDQvtCx0LvQsNGH0L3QvtC8IFVidW50dS3RgNCw0L3QvdC10YDQtSBHaXRIdWIgQWN0aW9ucy4iKQogICAgICAgICAgZC5hZGRfaGVhZGluZygi0JfQsNC00LDQvdC40LUgMSDQodCx0L7RgCDQvNC10YLRgNC40LogUHJvbWV0aGV1cyIsMSkKICAgICAgICAgIGQuYWRkX3BhcmFncmFwaCgiUHJvbWV0aGV1cyDQvtC/0YDQsNGI0LjQstCw0Lsg0YHQtdCx0Y8g0LggTm9kZSBFeHBvcnRlciDQutCw0LbQtNGL0LUg0L/Rj9GC0Ywg0YHQtdC60YPQvdC0LiDQl9Cw0L/RgNC+0YEgdXAg0LLQtdGA0L3Rg9C7INC30L3QsNGH0LXQvdC40LUgMSDQtNC70Y8g0L7QsdC10LjRhSDRhtC10LvQtdC5LiBOb2RlIEV4cG9ydGVyINC40LfQvNC10YDRj9C7INGA0LXRgdGD0YDRgdGLINC+0LHQu9Cw0YfQvdC+0Lkg0LzQsNGI0LjQvdGLLiIpCiAgICAgICAgICB0PWQuYWRkX3RhYmxlKHJvd3M9MSxjb2xzPTIpCiAgICAgICAgICB0LnN0eWxlPSJMaWdodCBTaGFkaW5nIEFjY2VudCAxIgogICAgICAgICAgZm9yIGNlbGwsdmFsdWUgaW4gemlwKHQucm93c1swXS5jZWxscywoItCf0L7QutCw0LfQsNGC0LXQu9GMIiwi0KDQtdC30YPQu9GM0YLQsNGCIikpOgogICAgICAgICAgICAgIGNlbGwudGV4dD12YWx1ZQogICAgICAgICAgZm9yIGEsYiBpbiBbKCLQl9Cw0LPRgNGD0LfQutCwIENQVSDQt9CwINC80LjQvdGD0YLRgyIsZiJ7Y3B1Oi4yZn0gJSIpLCgi0JjRgdC/0L7Qu9GM0LfQvtCy0LDQvdC40LUgUkFNIixmIntyYW06LjJmfSAlIiksCiAgICAgICAgICAgICAgICAgICAgICAoItCU0L7RgdGC0YPQv9C90LDRjyDQv9Cw0LzRj9GC0YwiLGYie2F2YWlsYWJsZS8yKiozMDouMmZ9INCT0LjQkSIpXToKICAgICAgICAgICAgICByb3c9dC5hZGRfcm93KCkKICAgICAgICAgICAgICByb3cuY2VsbHNbMF0udGV4dD1hCiAgICAgICAgICAgICAgcm93LmNlbGxzWzFdLnRleHQ9Yi5yZXBsYWNlKCIuIiwiLCIpCiAgICAgICAgICBkLmFkZF9oZWFkaW5nKCLQl9Cw0LTQsNC90LjQtSAyINCU0LDRiNCx0L7RgNC0IEdyYWZhbmEiLDEpCiAgICAgICAgICBkLmFkZF9wYXJhZ3JhcGgoItCd0LDRgdGC0YDQvtC10L0g0LjRgdGC0L7Rh9C90LjQuiBQcm9tZXRoZXVzINGBINCw0LTRgNC10YHQvtC8IGh0dHA6Ly9wcm9tZXRoZXVzOjkwOTAg0Lgg0LjQvNC/0L7RgNGC0LjRgNC+0LLQsNC9IE5vZGUgRXhwb3J0ZXIgRnVsbCAoSUQgMTg2MCkuINCf0YDQvtCy0LXRgNC60LAg0LjRgdGC0L7Rh9C90LjQutCwINGH0LXRgNC10LcgQVBJINCy0LXRgNC90YPQu9CwIE9LLiDQl9Cw0L/RgNC+0YEg0LTQvtC70Lgg0LjRgdC/0L7Qu9GM0LfRg9C10LzQvtC5INC/0LDQvNGP0YLQuCDRh9C10YDQtdC3IEdyYWZhbmEg0LLQtdGA0L3Rg9C7INC00LDQvdC90YvQtS4iKQogICAgICAgICAgZC5hZGRfcGFyYWdyYXBoKCJQcm9tUUwg0LTQu9GPIENQVVxuIitjcHVfZXhwcikKICAgICAgICAgIGQuYWRkX3BhcmFncmFwaCgiUHJvbVFMINC00LvRjyBSQU1cbiIrbWVtX2V4cHIpCiAgICAgICAgICBkLmFkZF9wYWdlX2JyZWFrKCkKICAgICAgICAgIGQuYWRkX2hlYWRpbmcoItCX0LDQtNCw0L3QuNC1IDMg0KbQtdC90YLRgNCw0LvQuNC30L7QstCw0L3QvdGL0Lkg0L/QvtC40YHQuiDQttGD0YDQvdCw0LvQvtCyIiwxKQogICAgICAgICAgZC5hZGRfcGFyYWdyYXBoKCLQpNCw0LnQuyBhcHAubG9nINGB0L7QtNC10YDQttCw0Lsg0L/Rj9GC0Ywg0YHQuNC90YLQtdGC0LjRh9C10YHQutC40YUg0YHQvtCx0YvRgtC40Lkg0L7QsdGA0LDQsdC+0YLQutC4INC/0LDQutC10YLQsC4gTG9nc3Rhc2gg0L/RgNC+0YfQuNGC0LDQuyBKU09OLdGB0YLRgNC+0LrQuCwg0LTQvtCx0LDQstC40Lsg0LLRgNC10LzQtdC90L3Ri9C1INC80LXRgtC60Lgg0Lgg0LfQsNC/0LjRgdCw0Lsg0YHQvtCx0YvRgtC40Y8g0LIg0LjQvdC00LXQutGBIGxhYjExLWV2ZW50cy4gS2liYW5hINC40YHQv9C+0LvRjNC30L7QstCw0LvQsCDQvtC00L3QvtC40LzRkdC90L3QvtC1INC/0YDQtdC00YHRgtCw0LLQu9C10L3QuNC1INC00LDQvdC90YvRhSDRgSDQv9C+0LvQtdC8IEB0aW1lc3RhbXAuIikKICAgICAgICAgIHQ9ZC5hZGRfdGFibGUocm93cz0xLGNvbHM9MykKICAgICAgICAgIHQuc3R5bGU9IkxpZ2h0IFNoYWRpbmcgQWNjZW50IDEiCiAgICAgICAgICBmb3IgY2VsbCx2YWx1ZSBpbiB6aXAodC5yb3dzWzBdLmNlbGxzLCgi0JLRgNC10LzRjyBVVEMiLCLQo9GA0L7QstC10L3RjCIsItCh0L7QvtCx0YnQtdC90LjQtSIpKToKICAgICAgICAgICAgICBjZWxsLnRleHQ9dmFsdWUKICAgICAgICAgIGZvciBldmVudCBpbiBwcm9vZlsiZXZlbnRzIl06CiAgICAgICAgICAgICAgcm93PXQuYWRkX3JvdygpCiAgICAgICAgICAgICAgZm9yIGNlbGwsdmFsdWUgaW4gemlwKHJvdy5jZWxscywoZXZlbnRbIkB0aW1lc3RhbXAiXVs6MjNdLGV2ZW50WyJsZXZlbCJdLGV2ZW50WyJtZXNzYWdlIl0pKToKICAgICAgICAgICAgICAgICAgY2VsbC50ZXh0PXZhbHVlCiAgICAgICAgICBkLmFkZF9wYXJhZ3JhcGgoItCf0L7QuNGB0Log0YfQtdGA0LXQtyBBUEkgS2liYW5hINCy0LXRgNC90YPQuyDQstGB0LUg0L/Rj9GC0Ywg0YHQvtCx0YvRgtC40LkuINCk0LjQu9GM0YLRgCDQv9C+IGxldmVsLmtleXdvcmQgPSBFUlJPUiDQsiBFbGFzdGljc2VhcmNoINC90LDRiNGR0Lsg0L7QtNC90YMg0LfQsNC/0LjRgdGMIOKAlCBCYXRjaCB0aW1lZCBvdXQuIikKICAgICAgICAgIGQuYWRkX2hlYWRpbmcoItCS0YvQstC+0LQiLDEpCiAgICAgICAgICBkLmFkZF9wYXJhZ3JhcGgoIlByb21ldGhldXMg0L/QvtC00YLQstC10YDQtNC40Lsg0LTQvtGB0YLRg9C/0L3QvtGB0YLRjCDQvtCx0LXQuNGFINGG0LXQu9C10LksINCwIEdyYWZhbmEg0L/QvtC70YPRh9C40LvQsCDQvNC10YLRgNC40LrRgyDQv9Cw0LzRj9GC0Lgg0YfQtdGA0LXQtyDQvdCw0YHRgtGA0L7QtdC90L3Ri9C5INC40YHRgtC+0YfQvdC40LouINCm0LXQv9C+0YfQutCwIExvZ3N0YXNoLCBFbGFzdGljc2VhcmNoINC4IEtpYmFuYSDQvtCx0YDQsNCx0L7RgtCw0LvQsCDQuCDQstC10YDQvdGD0LvQsCDQstC10YHRjCDQvdCw0LHQvtGAINGC0LXRgdGC0L7QstGL0YUg0YHQvtCx0YvRgtC40LkuIikKICAgICAgICAgIGQuY29yZV9wcm9wZXJ0aWVzLnRpdGxlPSLQm9Cw0LHQvtGA0LDRgtC+0YDQvdCw0Y8g0YDQsNCx0L7RgtCwIDExIgogICAgICAgICAgZC5jb3JlX3Byb3BlcnRpZXMuYXV0aG9yPSIiCiAgICAgICAgICBkLnNhdmUob3V0LyJMYWItMTEuZG9jeCIpCiAgICAgICAgICBwcmludChqc29uLmR1bXBzKHByb29mLGluZGVudD0yKSxmbHVzaD1UcnVlKQogICAgICAgICAgTEFCMTFfRU9GCiAgICAgICAgICBzdWRvIHN5c2N0bCAtdyB2bS5tYXhfbWFwX2NvdW50PTI2MjE0NAogICAgICAgICAgcHl0aG9uIC1tIHBpcCBpbnN0YWxsIHB5dGhvbi1kb2N4IHBpbGxvdyBwZGYyaW1hZ2UKICAgICAgICAgIGRvY2tlciBjb21wb3NlIHVwIC1kCiAgICAgICAgICBweXRob24gbGFiLnB5CiAgICAgIC0gbmFtZTogQ29sbGVjdCBzZXJ2aWNlIGxvZ3MKICAgICAgICBpZjogYWx3YXlzKCkKICAgICAgICBydW46IHwKICAgICAgICAgIG1rZGlyIC1wIHJlc3VsdHMKICAgICAgICAgIGRvY2tlciBjb21wb3NlIHBzIC1hID4gcmVzdWx0cy9jb250YWluZXJzLnR4dAogICAgICAgICAgZG9ja2VyIGNvbXBvc2UgbG9ncyAtLW5vLWNvbG9yID4gcmVzdWx0cy9zZXJ2aWNlcy5sb2cKICAgICAgLSB1c2VzOiBhY3Rpb25zL3VwbG9hZC1hcnRpZmFjdEB2NAogICAgICAgIGlmOiBhbHdheXMoKQogICAgICAgIHdpdGg6CiAgICAgICAgICBuYW1lOiBsYWIxMS1yZXN1bHRzCiAgICAgICAgICBwYXRoOiByZXN1bHRzLwo=
+name: Lab 11 Monitoring and Logging
+on: [push, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  lab:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - name: Deploy and verify lab
+        run: |
+          cat > compose.yml <<'LAB11_EOF'
+          services:
+            node:
+              image: prom/node-exporter:v1.9.1
+              pid: host
+              volumes: ["/:/host:ro,rslave"]
+              command: ["--path.rootfs=/host"]
+            prometheus:
+              image: prom/prometheus:v3.5.0
+              ports: ["127.0.0.1:9090:9090"]
+              volumes: ["./prometheus.yml:/etc/prometheus/prometheus.yml:ro"]
+            grafana:
+              image: grafana/grafana:12.1.0
+              ports: ["127.0.0.1:3000:3000"]
+            elasticsearch:
+              image: docker.elastic.co/elasticsearch/elasticsearch:8.10.2
+              ports: ["127.0.0.1:9200:9200"]
+              environment:
+                discovery.type: single-node
+                xpack.security.enabled: "false"
+                ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+            kibana:
+              image: docker.elastic.co/kibana/kibana:8.10.2
+              ports: ["127.0.0.1:5601:5601"]
+              environment:
+                ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+              depends_on: [elasticsearch]
+            logstash:
+              image: docker.elastic.co/logstash/logstash:8.10.2
+              environment:
+                XPACK_MONITORING_ENABLED: "false"
+                LS_JAVA_OPTS: "-Xms256m -Xmx256m"
+              volumes:
+                - ./pipeline.conf:/usr/share/logstash/pipeline/logstash.conf:ro
+                - ./app.log:/logs/app.log:ro
+              depends_on: [elasticsearch]
+          LAB11_EOF
+          cat > prometheus.yml <<'LAB11_EOF'
+          global:
+            scrape_interval: 5s
+          scrape_configs:
+            - job_name: prometheus
+              static_configs:
+                - targets: ["localhost:9090"]
+            - job_name: node_exporter
+              static_configs:
+                - targets: ["node:9100"]
+          LAB11_EOF
+          cat > pipeline.conf <<'LAB11_EOF'
+          input {
+            file {
+              path => "/logs/app.log"
+              start_position => "beginning"
+              sincedb_path => "/usr/share/logstash/data/lab11.sincedb"
+              codec => json
+            }
+          }
+          output {
+            elasticsearch {
+              hosts => ["http://elasticsearch:9200"]
+              index => "lab11-events"
+              ilm_enabled => false
+              data_stream => false
+            }
+          }
+          LAB11_EOF
+          cat > app.log <<'LAB11_EOF'
+          {"level":"INFO","message":"Worker started"}
+          {"level":"INFO","message":"Batch accepted"}
+          {"level":"WARN","message":"Batch latency over 500 ms"}
+          {"level":"ERROR","message":"Batch timed out"}
+          {"level":"INFO","message":"Worker recovered"}
+          LAB11_EOF
+          cat > lab.py <<'LAB11_EOF'
+          import base64
+          import json
+          import os
+          import time
+          from pathlib import Path
+          from urllib.parse import urlencode
+          from urllib.request import Request, urlopen
+          from docx import Document
+          from docx.shared import Pt
+          
+          def api(url, body=None, headers=None, method=None):
+              req = Request(url, data=None if body is None else json.dumps(body).encode(),
+                            headers={"Content-Type":"application/json", **(headers or {})}, method=method)
+              with urlopen(req, timeout=20) as response:
+                  return json.load(response)
+          
+          def wait(call, ready, name):
+              for _ in range(90):
+                  try:
+                      result = call()
+                      if ready(result):
+                          return result
+                  except (OSError, ValueError) as error:
+                      print(f"{name}: {error}", flush=True)
+                  time.sleep(5)
+              raise RuntimeError(f"Not ready: {name}")
+          
+          p = "http://127.0.0.1:9090"
+          g = "http://127.0.0.1:3000"
+          e = "http://127.0.0.1:9200"
+          k = "http://127.0.0.1:5601"
+          ga = {"Authorization": "Basic " + base64.b64encode(b"admin:admin").decode()}
+          ka = {"kbn-xsrf":"lab11"}
+          def query(expr, host=p, headers=None):
+              return api(host + "/api/v1/query?" + urlencode({"query":expr}), headers=headers)["data"]["result"]
+          up = wait(lambda: query("up"), lambda v: len(v)==2 and all(x["value"][1]=="1" for x in v), "Prometheus targets")
+          cpu_expr = '100 * (1 - avg by(instance) (rate(node_cpu_seconds_total{mode="idle"}[1m])))'
+          mem_expr = '100 * (1 - node_memory_MemAvailable_bytes / node_memory_MemTotal_bytes)'
+          cpu = float(wait(lambda: query(cpu_expr), bool, "CPU")[0]["value"][1])
+          ram = float(query(mem_expr)[0]["value"][1])
+          available = int(query("node_memory_MemAvailable_bytes")[0]["value"][1])
+          wait(lambda: api(g+"/api/health"), lambda d: d["database"]=="ok", "Grafana")
+          api(g+"/api/datasources", {"name":"Prometheus","uid":"lab-prom","type":"prometheus",
+              "url":"http://prometheus:9090","access":"proxy","isDefault":True}, ga)
+          dash = api("https://grafana.com/api/dashboards/1860/revisions/latest/download")
+          dash["id"] = None
+          saved = api(g+"/api/dashboards/db", {"dashboard":dash,"overwrite":True}, ga)
+          assert saved["status"] == "success", saved
+          health = api(g+"/api/datasources/uid/lab-prom/health", headers=ga)
+          assert health["status"] == "OK", health
+          gp = g+"/api/datasources/proxy/uid/lab-prom"
+          assert query(mem_expr, gp, ga)
+          hits = wait(lambda: api(e+"/lab11-events/_search?size=20"), 
+                      lambda d: d["hits"]["total"]["value"]>=5, "Logstash indexing")
+          events = [x["_source"] for x in hits["hits"]["hits"]]
+          expected = sorted((x["level"],x["message"]) for x in map(json.loads, Path("app.log").read_text().splitlines()))
+          assert sorted((x["level"],x["message"]) for x in events) == expected
+          errors = api(e+"/lab11-events/_count", {"query":{"term":{"level.keyword":"ERROR"}}})
+          assert errors["count"] == 1, errors
+          wait(lambda: api(k+"/api/status"), lambda d:d["status"]["overall"]["level"]=="available", "Kibana")
+          view = api(k+"/api/data_views/data_view",{"data_view":{"id":"lab11-events","title":"lab11-events",
+              "name":"Lab 11 Events","timeFieldName":"@timestamp"}},ka)
+          assert view["data_view"]["title"] == "lab11-events"
+          via_kibana = api(k+"/api/console/proxy?path=lab11-events%2F_search&method=GET",headers=ka,method="POST")
+          assert via_kibana["hits"]["total"]["value"] == 5
+          out = Path("results")
+          out.mkdir(exist_ok=True)
+          run = os.environ["GITHUB_SERVER_URL"]+"/"+os.environ["GITHUB_REPOSITORY"]+"/actions/runs/"+os.environ["GITHUB_RUN_ID"]
+          proof = {"run":run,"runner":os.environ["RUNNER_OS"],"targets":up,"cpu_percent":cpu,
+                   "ram_percent":ram,"available_bytes":available,"grafana":saved,"grafana_data_source":health,
+                   "kibana_data_view":view["data_view"]["title"],"kibana_hits":5,"errors":errors["count"],
+                   "events":[{key:x[key] for key in ("@timestamp","level","message")} for x in events]}
+          (out/"evidence.json").write_text(json.dumps(proof,indent=2),encoding="utf-8")
+          d=Document()
+          for name in ("Normal","Title","Heading 1"):
+              d.styles[name].font.name="Calibri"
+          d.styles["Normal"].font.size=Pt(11)
+          from docx.oxml.ns import qn
+          for b in d.styles["Title"]._element.xpath("./w:pPr/w:pBdr"):
+              b.getparent().remove(b)
+          d.add_paragraph("Лабораторная работа 11", "Title")
+          d.add_paragraph("Мониторинг и логирование в GitHub Actions")
+          d.add_paragraph("Дисциплина — DevOps и операционные системы")
+          d.add_paragraph("Выполнил(а) _______________________    Группа __________")
+          d.add_paragraph("Запуск и журнал проверки\n"+run)
+          d.add_heading("Цель работы",1)
+          d.add_paragraph("Настроить сбор метрик Linux и централизованный поиск журналов. Все шесть сервисов запущены через Docker Compose на облачном Ubuntu-раннере GitHub Actions.")
+          d.add_heading("Задание 1 Сбор метрик Prometheus",1)
+          d.add_paragraph("Prometheus опрашивал себя и Node Exporter каждые пять секунд. Запрос up вернул значение 1 для обеих целей. Node Exporter измерял ресурсы облачной машины.")
+          t=d.add_table(rows=1,cols=2)
+          t.style="Light Shading Accent 1"
+          for cell,value in zip(t.rows[0].cells,("Показатель","Результат")):
+              cell.text=value
+          for a,b in [("Загрузка CPU за минуту",f"{cpu:.2f} %"),("Использование RAM",f"{ram:.2f} %"),
+                      ("Доступная память",f"{available/2**30:.2f} ГиБ")]:
+              row=t.add_row()
+              row.cells[0].text=a
+              row.cells[1].text=b.replace(".",",")
+          d.add_heading("Задание 2 Дашборд Grafana",1)
+          d.add_paragraph("Настроен источник Prometheus с адресом http://prometheus:9090 и импортирован Node Exporter Full (ID 1860). Проверка источника через API вернула OK. Запрос доли используемой памяти через Grafana вернул данные.")
+          d.add_paragraph("PromQL для CPU\n"+cpu_expr)
+          d.add_paragraph("PromQL для RAM\n"+mem_expr)
+          d.add_page_break()
+          d.add_heading("Задание 3 Централизованный поиск журналов",1)
+          d.add_paragraph("Файл app.log содержал пять синтетических событий обработки пакета. Logstash прочитал JSON-строки, добавил временные метки и записал события в индекс lab11-events. Kibana использовала одноимённое представление данных с полем @timestamp.")
+          t=d.add_table(rows=1,cols=3)
+          t.style="Light Shading Accent 1"
+          for cell,value in zip(t.rows[0].cells,("Время UTC","Уровень","Сообщение")):
+              cell.text=value
+          for event in proof["events"]:
+              row=t.add_row()
+              for cell,value in zip(row.cells,(event["@timestamp"][:23],event["level"],event["message"])):
+                  cell.text=value
+          d.add_paragraph("Поиск через API Kibana вернул все пять событий. Фильтр по level.keyword = ERROR в Elasticsearch нашёл одну запись — Batch timed out.")
+          d.add_heading("Вывод",1)
+          d.add_paragraph("Prometheus подтвердил доступность обеих целей, а Grafana получила метрику памяти через настроенный источник. Цепочка Logstash, Elasticsearch и Kibana обработала и вернула весь набор тестовых событий.")
+          d.core_properties.title="Лабораторная работа 11"
+          d.core_properties.author=""
+          d.save(out/"Lab-11.docx")
+          print(json.dumps(proof,indent=2),flush=True)
+          LAB11_EOF
+          sudo sysctl -w vm.max_map_count=262144
+          python -m pip install python-docx pillow pdf2image
+          docker compose up -d
+          python lab.py
+      - name: Render Word report
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y --no-install-recommends libreoffice-writer poppler-utils fonts-liberation
+          libreoffice -env:UserInstallation=file:///tmp/lab11-lo --headless --convert-to pdf --outdir results results/Lab-11.docx
+          pdftoppm -r 125 -png results/Lab-11.pdf results/page
+      - name: Collect service logs
+        if: always()
+        run: |
+          mkdir -p results
+          docker compose ps -a > results/containers.txt
+          docker compose logs --no-color > results/services.log
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lab11-results
+          path: results/
